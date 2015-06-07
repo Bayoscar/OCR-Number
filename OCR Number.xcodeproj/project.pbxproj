@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E66AA81B228EDB00460DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E66AA71B228EDB00460DA3 /* AppDelegate.swift */; };
+		D7E66AAA1B228EDB00460DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E66AA91B228EDB00460DA3 /* ViewController.swift */; };
+		D7E66AAD1B228EDB00460DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E66AAB1B228EDB00460DA3 /* Main.storyboard */; };
+		D7E66AAF1B228EDB00460DA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E66AAE1B228EDB00460DA3 /* Images.xcassets */; };
+		D7E66AB21B228EDB00460DA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E66AB01B228EDB00460DA3 /* LaunchScreen.xib */; };
+		D7E66ABE1B228EDB00460DA3 /* OCR_NumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E66ABD1B228EDB00460DA3 /* OCR_NumberTests.swift */; };
+		D7E66AC81B228EF100460DA3 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E66AC71B228EF100460DA3 /* libstdc++.dylib */; };
+		D7E66ACA1B228EF600460DA3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E66AC91B228EF600460DA3 /* CoreImage.framework */; };
+		D7E66ACC1B228F0500460DA3 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E66ACB1B228F0500460DA3 /* TesseractOCR.framework */; };
+		D7E66ACE1B228F0C00460DA3 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = D7E66ACD1B228F0C00460DA3 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7E66AB81B228EDB00460DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E66A9A1B228EDB00460DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E66AA11B228EDB00460DA3;
+			remoteInfo = "OCR Number";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7E66AA21B228EDB00460DA3 /* OCR Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E66AA61B228EDB00460DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E66AA71B228EDB00460DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7E66AA91B228EDB00460DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7E66AAC1B228EDB00460DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E66AAE1B228EDB00460DA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7E66AB11B228EDB00460DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7E66AB71B228EDB00460DA3 /* OCR NumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR NumberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E66ABC1B228EDB00460DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E66ABD1B228EDB00460DA3 /* OCR_NumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR_NumberTests.swift; sourceTree = "<group>"; };
+		D7E66AC71B228EF100460DA3 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		D7E66AC91B228EF600460DA3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D7E66ACB1B228F0500460DA3 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "../../../../Downloads/OCR Tutorial Resources/Tesseract Resources/TesseractOCR.framework"; sourceTree = "<group>"; };
+		D7E66ACD1B228F0C00460DA3 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		D7E66ACF1B22900A00460DA3 /* OCR Number-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCR Number-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E66A9F1B228EDB00460DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E66ACA1B228EF600460DA3 /* CoreImage.framework in Frameworks */,
+				D7E66AC81B228EF100460DA3 /* libstdc++.dylib in Frameworks */,
+				D7E66ACC1B228F0500460DA3 /* TesseractOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E66AB41B228EDB00460DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E66A991B228EDB00460DA3 = {
+			isa = PBXGroup;
+			children = (
+				D7E66ACB1B228F0500460DA3 /* TesseractOCR.framework */,
+				D7E66AC91B228EF600460DA3 /* CoreImage.framework */,
+				D7E66AC71B228EF100460DA3 /* libstdc++.dylib */,
+				D7E66AA41B228EDB00460DA3 /* OCR Number */,
+				D7E66ABA1B228EDB00460DA3 /* OCR NumberTests */,
+				D7E66AA31B228EDB00460DA3 /* Products */,
+				D7E66ACF1B22900A00460DA3 /* OCR Number-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E66AA31B228EDB00460DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E66AA21B228EDB00460DA3 /* OCR Number.app */,
+				D7E66AB71B228EDB00460DA3 /* OCR NumberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E66AA41B228EDB00460DA3 /* OCR Number */ = {
+			isa = PBXGroup;
+			children = (
+				D7E66AA71B228EDB00460DA3 /* AppDelegate.swift */,
+				D7E66AA91B228EDB00460DA3 /* ViewController.swift */,
+				D7E66AAB1B228EDB00460DA3 /* Main.storyboard */,
+				D7E66AAE1B228EDB00460DA3 /* Images.xcassets */,
+				D7E66AB01B228EDB00460DA3 /* LaunchScreen.xib */,
+				D7E66AA51B228EDB00460DA3 /* Supporting Files */,
+			);
+			path = "OCR Number";
+			sourceTree = "<group>";
+		};
+		D7E66AA51B228EDB00460DA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7E66ACD1B228F0C00460DA3 /* tessdata */,
+				D7E66AA61B228EDB00460DA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E66ABA1B228EDB00460DA3 /* OCR NumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E66ABD1B228EDB00460DA3 /* OCR_NumberTests.swift */,
+				D7E66ABB1B228EDB00460DA3 /* Supporting Files */,
+			);
+			path = "OCR NumberTests";
+			sourceTree = "<group>";
+		};
+		D7E66ABB1B228EDB00460DA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7E66ABC1B228EDB00460DA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E66AA11B228EDB00460DA3 /* OCR Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E66AC11B228EDB00460DA3 /* Build configuration list for PBXNativeTarget "OCR Number" */;
+			buildPhases = (
+				D7E66A9E1B228EDB00460DA3 /* Sources */,
+				D7E66A9F1B228EDB00460DA3 /* Frameworks */,
+				D7E66AA01B228EDB00460DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCR Number";
+			productName = "OCR Number";
+			productReference = D7E66AA21B228EDB00460DA3 /* OCR Number.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7E66AB61B228EDB00460DA3 /* OCR NumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E66AC41B228EDB00460DA3 /* Build configuration list for PBXNativeTarget "OCR NumberTests" */;
+			buildPhases = (
+				D7E66AB31B228EDB00460DA3 /* Sources */,
+				D7E66AB41B228EDB00460DA3 /* Frameworks */,
+				D7E66AB51B228EDB00460DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E66AB91B228EDB00460DA3 /* PBXTargetDependency */,
+			);
+			name = "OCR NumberTests";
+			productName = "OCR NumberTests";
+			productReference = D7E66AB71B228EDB00460DA3 /* OCR NumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E66A9A1B228EDB00460DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Stefandeclerck;
+				TargetAttributes = {
+					D7E66AA11B228EDB00460DA3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D7E66AB61B228EDB00460DA3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D7E66AA11B228EDB00460DA3;
+					};
+				};
+			};
+			buildConfigurationList = D7E66A9D1B228EDB00460DA3 /* Build configuration list for PBXProject "OCR Number" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E66A991B228EDB00460DA3;
+			productRefGroup = D7E66AA31B228EDB00460DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E66AA11B228EDB00460DA3 /* OCR Number */,
+				D7E66AB61B228EDB00460DA3 /* OCR NumberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E66AA01B228EDB00460DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E66AAD1B228EDB00460DA3 /* Main.storyboard in Resources */,
+				D7E66ACE1B228F0C00460DA3 /* tessdata in Resources */,
+				D7E66AB21B228EDB00460DA3 /* LaunchScreen.xib in Resources */,
+				D7E66AAF1B228EDB00460DA3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E66AB51B228EDB00460DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E66A9E1B228EDB00460DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E66AAA1B228EDB00460DA3 /* ViewController.swift in Sources */,
+				D7E66AA81B228EDB00460DA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E66AB31B228EDB00460DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E66ABE1B228EDB00460DA3 /* OCR_NumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E66AB91B228EDB00460DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E66AA11B228EDB00460DA3 /* OCR Number */;
+			targetProxy = D7E66AB81B228EDB00460DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7E66AAB1B228EDB00460DA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E66AAC1B228EDB00460DA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E66AB01B228EDB00460DA3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E66AB11B228EDB00460DA3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E66ABF1B228EDB00460DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7E66AC01B228EDB00460DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E66AC21B228EDB00460DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stefandeclerck/Downloads/OCR,
+					Tutorial,
+					Resources/Tesseract,
+					Resources,
+				);
+				INFOPLIST_FILE = "OCR Number/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCR Number-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7E66AC31B228EDB00460DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stefandeclerck/Downloads/OCR,
+					Tutorial,
+					Resources/Tesseract,
+					Resources,
+				);
+				INFOPLIST_FILE = "OCR Number/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCR Number-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D7E66AC51B228EDB00460DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCR NumberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR Number.app/OCR Number";
+			};
+			name = Debug;
+		};
+		D7E66AC61B228EDB00460DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCR NumberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR Number.app/OCR Number";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E66A9D1B228EDB00460DA3 /* Build configuration list for PBXProject "OCR Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E66ABF1B228EDB00460DA3 /* Debug */,
+				D7E66AC01B228EDB00460DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E66AC11B228EDB00460DA3 /* Build configuration list for PBXNativeTarget "OCR Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E66AC21B228EDB00460DA3 /* Debug */,
+				D7E66AC31B228EDB00460DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E66AC41B228EDB00460DA3 /* Build configuration list for PBXNativeTarget "OCR NumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E66AC51B228EDB00460DA3 /* Debug */,
+				D7E66AC61B228EDB00460DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E66A9A1B228EDB00460DA3 /* Project object */;
+}
